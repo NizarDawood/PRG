@@ -12,7 +12,7 @@ public class peppet {
        nummer = 1;
 
 // input ska besvaras med ok
-        if ( in = nummer ){
+      //  if ( in = nummer ){
             System.out.println(  "ok"  );}
 
 
@@ -20,4 +20,3 @@ public class peppet {
 
     }
 
-}
