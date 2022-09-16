@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aad8387-624f-4807-bc54-a08ecdd74238" name="Changes" comment="hje">
-      <change afterPath="$PROJECT_DIR$/src/crypto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculatorModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculatorView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filett" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peppet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peppet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PRG/crypto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRG/crypto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crypto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,14 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.crypto">
+  <component name="RunManager" selected="Application.CalculatorModel">
+    <configuration name="CalculatorModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorModel" />
+      <module name="PRG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="crypto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crypto" />
       <module name="PRG" />
@@ -57,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorModel" />
         <item itemvalue="Application.crypto" />
         <item itemvalue="Application.peppet" />
       </list>
@@ -72,7 +84,11 @@
       <updated>1661424665670</updated>
       <workItem from="1661424678512" duration="2824000" />
       <workItem from="1661509943272" duration="2864000" />
-      <workItem from="1662030461597" duration="2511000" />
+      <workItem from="1662030461597" duration="2681000" />
+      <workItem from="1662114355892" duration="3557000" />
+      <workItem from="1662656238109" duration="3830000" />
+      <workItem from="1663237634412" duration="2335000" />
+      <workItem from="1663322109383" duration="3233000" />
     </task>
     <servers />
   </component>
@@ -89,5 +105,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PRG$crypto.ic" NAME="crypto Coverage Results" MODIFIED="1662117639905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
