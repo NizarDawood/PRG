@@ -9,12 +9,17 @@ public class crypto {
     // key för att få ut det crypterade ordet
     private static int calculationValue;
 
-    String message= "hej";
+    String mes= "hej";
     String key="da";
 
-    public void addTwoNumbers(int x, int y){
-        calculationValue = x + y;
+    static int crypt(int mes, int key) {
+        int c =mes^key;
+        return c;
     }
+
+
+
+    public void addTwoNumbers(int x, int y){calculationValue = x ^ y;}
 
     public int getCalculationValue() {
         return calculationValue;

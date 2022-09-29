@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aad8387-624f-4807-bc54-a08ecdd74238" name="Changes" comment="hje">
-      <change afterPath="$PROJECT_DIR$/src/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculatorModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculatorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filett" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/crypto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRG/crypto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crypto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +84,7 @@
       <workItem from="1662656238109" duration="3830000" />
       <workItem from="1663237634412" duration="2335000" />
       <workItem from="1663322109383" duration="3233000" />
+      <workItem from="1664388271861" duration="2179000" />
     </task>
     <servers />
   </component>
