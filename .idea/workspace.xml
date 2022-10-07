@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aad8387-624f-4807-bc54-a08ecdd74238" name="Changes" comment="hje">
-      <change afterPath="$PROJECT_DIR$/minfil.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/CalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/CalculatorModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/CalculatorView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/crypto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/peppet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatorModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatorView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crypto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peppet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PRG/filett" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filett" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +28,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Model.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/filett" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/xor.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,18 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nizar.dawood/Documents/GitHub/krypteringsprogram&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/nizar.dawood/Documents/GitHub/krypteringsprogram",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
-  <component name="RunManager" selected="Application.crypto">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nizar.dawood\Documents\GitHub\PRG" />
+      <recent name="C:\Users\nizar.dawood\Documents\GitHub\PRG\src" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="CalculatorModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorModel" />
       <module name="PRG" />
@@ -107,7 +106,8 @@
       <workItem from="1664447850270" duration="351000" />
       <workItem from="1664448543369" duration="756000" />
       <workItem from="1664449331922" duration="6859000" />
-      <workItem from="1665051895930" duration="4525000" />
+      <workItem from="1665051895930" duration="4598000" />
+      <workItem from="1665138319133" duration="3229000" />
     </task>
     <servers />
   </component>

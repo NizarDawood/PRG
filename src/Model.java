@@ -1,3 +1,5 @@
+import java.io.File;
+import java.util.Scanner;
 
 // The Model performs all the calculations needed
 // and that is it. It doesn't know the View
@@ -6,27 +8,35 @@ public class Model {
 
             public static  void main(String[] args) {
 
-                String m = "hel";
-                String k = "hej";
+                // scanna fil gör om filen till string
+                Scanner input = new Scanner(new File("file.txt"));
+                String message = String.valueOf(input);
+                String key = ")/()/";
 
                 Model cryptModel = new Model();
-                System.out.println(cryptModel.cryptString(m, k));
+                System.out.println(cryptModel.cryptString(message, key));
             }
 
-    public String cryptString(String m, String k){
+    public String cryptString(String message, String key){
 
             String resultat = "";
 
-            for (int i = 0; i < m.length(); i++) {
-             resultat += (char)crypt(m.charAt(i), k.charAt(i);}
+            for (int i = 0; i < message.length(); i++) {
+             resultat += (char)crypt(message.charAt(i),key.charAt(i));}
 
             return resultat;
         }
-        public  int crypt(int m, int k){
-            return m ^ k;
+        public  int crypt(int message, int key){
+            return message ^ key;
         }
+ public String setmessage{
+                this.message = message
+    }
 
-        //expand key
+    // public void setcrypt{
+    //                this.crypt( int message, int key ) = crypt(int message, int key)
+    //    }
+        //while loop expand key <> message
         //static void cryptoString(String mes, String key,){
           //  String string = "";
 
@@ -38,7 +48,7 @@ public class Model {
             }
 
 
-}
+
 
 
 
