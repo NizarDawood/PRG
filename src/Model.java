@@ -6,32 +6,48 @@ import java.util.Scanner;
 // exists
 public class Model {
 
-            public static  void main(String[] args) {
+    public static void main(String[] args) {
 
-                // scanna fil gör om filen till string
-                Scanner input = new Scanner(new File("file.txt"));
-                String message = String.valueOf(input);
-                String key = ")/()/";
+        Scanner input = new Scanner(new File("file.txt"));
+        String message = String.valueOf(input);
+        String key = ")/()/";
 
-                Model cryptModel = new Model();
-                System.out.println(cryptModel.cryptString(message, key));
-            }
-
-    public String cryptString(String message, String key){
-
-            String resultat = "";
-
-            for (int i = 0; i < message.length(); i++) {
-             resultat += (char)crypt(message.charAt(i),key.charAt(i));}
-
-            return resultat;
-        }
-        public  int crypt(int message, int key){
-            return message ^ key;
-        }
- public String setmessage{
-                this.message = message
+        Model cryptModel = new Model();
+        System.out.println(cryptModel.cryptString(message, key));
     }
+
+    public String cryptString(String message, String key) {
+
+        String resultat = "";
+        while (key.length() < message.length()) {
+            key = expandkey(key);
+        }
+        for (int i = 0; i < message.length(); i++) {
+            resultat += (char) crypt(message.charAt(i), key.charAt(i));
+        }
+
+        return resultat;
+    }
+    private String expandkey(String key) {
+        return key + key;
+
+    }
+    public int crypt(int message, int key) {
+        return message ^ key;
+    }
+    private String message;
+    private String key;
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public void setkey(String key) {
+        this.key = key;
+    }
+
+
+
+}
 
     // public void setcrypt{
     //                this.crypt( int message, int key ) = crypt(int message, int key)
@@ -40,12 +56,10 @@ public class Model {
         //static void cryptoString(String mes, String key,){
           //  String string = "";
 
-            //for (int i = 0; i < string.length(); i++) {
-              //  char c = string.charAt(i);
-             //   System.out.println(c); wile
 
 
-            }
+
+
 
 
 

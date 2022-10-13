@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aad8387-624f-4807-bc54-a08ecdd74238" name="Changes" comment="hje">
-      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/filett" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filett" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="af988233-4af4-4761-9e82-3ff67107ef18" />
+        <option name="url" value="https://github.com/NizarDawood/PRG.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Model.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/xor.java" root0="FORCE_HIGHLIGHTING" />
@@ -33,24 +35,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2DqRWSmIue9DX0MDuMV2JySybm9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nizar.dawood/Documents/GitHub/krypteringsprogram",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nizar.dawood/Documents/GitHub/krypteringsprogram&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nizar.dawood\Documents\GitHub\PRG" />
@@ -58,7 +63,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="CalculatorModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorModel" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorModel" />
       <module name="PRG" />
       <method v="2">
@@ -82,7 +87,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.crypto" />
-        <item itemvalue="Application.CalculatorModel" />
         <item itemvalue="Application.peppet" />
       </list>
     </recent_temporary>
@@ -107,8 +111,16 @@
       <workItem from="1664448543369" duration="756000" />
       <workItem from="1664449331922" duration="6859000" />
       <workItem from="1665051895930" duration="4598000" />
-      <workItem from="1665138319133" duration="3229000" />
+      <workItem from="1665138319133" duration="4519000" />
+      <workItem from="1665656713568" duration="2839000" />
     </task>
+    <task id="LOCAL−00001" summary="hje">
+      <created>1665142847458</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1665142847458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hje" />
+    <option name="LAST_COMMIT_MESSAGE" value="hje" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PRG$crypto.ic" NAME="crypto Coverage Results" MODIFIED="1662117639905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
