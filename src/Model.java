@@ -6,10 +6,12 @@ import java.util.Scanner;
 // exists
 public class Model {
 
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
+//Scanner input = new Scanner(new File("file.txt"));
+//        String message = String.valueOf(input);
 
-        Scanner input = new Scanner(new File("file.txt"));
-        String message = String.valueOf(input);
+        String message = "EORJEOJR";
+
         String key = ")/()/";
 
         Model cryptModel = new Model();
