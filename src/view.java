@@ -1,40 +1,46 @@
 import javax.swing.*;
+import javax.swing.text.Element;
+import javax.swing.text.View;
 
 public class view {
 
-    public static void main(String[] args) {
-
-
-    }
-
     private JPanel mainPanel;
-    private JTextArea text;
-    private JTextField key;
-    private JButton button;
-    private JTextPane svar;
+    private JTextArea textArea1;
+    private JTextField textField1;
+    private JButton button1;
+    private JTextPane textPane1;
 
 
-    public view() {
+  //  public view() {}
 
-    }
-        public JPanel mainPanel () {
+
+        public JPanel panel () {
             return mainPanel;
         }
 
 
         public String getText () {
-            return text.getText();
+            return textArea1.getText();
         }
         public String getKey () {
-            return key.getText();
+            return textField1.getText();
         }
+    public String button () {
+        return button1.getText();
+    }
         public void setsvar (String c){
-            svar.setText(c);
+            textPane1.setText(c);
         }
 
-
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("view");
+        frame.setContentPane(new view().mainPanel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
     }
 }
+
 
 
 
