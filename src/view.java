@@ -1,6 +1,7 @@
 import javax.swing.*;
 import javax.swing.text.Element;
 import javax.swing.text.View;
+import java.awt.event.ActionListener;
 
 public class view {
 
@@ -15,22 +16,24 @@ public class view {
 
 
         public JPanel panel () {
+
             return mainPanel;
         }
+        public String getmessage () {
 
-
-        public String getText () {
             return textArea1.getText();
         }
         public String getKey () {
+
             return textField1.getText();
         }
-    public String button () {
-        return button1.getText();
+
+    public void getcrypterad (String c) {
+        textPane1.setText(c);
     }
-        public void setsvar (String c){
-            textPane1.setText(c);
-        }
+    public void setCryptListener(ActionListener cryptListener) {
+        button1.addActionListener(cryptListener);
+    }
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("view");

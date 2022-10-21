@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9aad8387-624f-4807-bc54-a08ecdd74238" name="Changes" comment="10/13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRG/controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PRG/Model.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PRG/view.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.java" afterDir="false" />
     </list>
@@ -46,23 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nizar.dawood/Documents/GitHub/krypteringsprogram&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/nizar.dawood/Documents/GitHub/krypteringsprogram",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nizar.dawood\Documents\GitHub\PRG" />
@@ -139,7 +142,7 @@
       <workItem from="1665743232742" duration="3929000" />
       <workItem from="1666199973771" duration="746000" />
       <workItem from="1666203729307" duration="5784000" />
-      <workItem from="1666347791515" duration="1782000" />
+      <workItem from="1666347791515" duration="4207000" />
     </task>
     <task id="LOCAL−00001" summary="hje">
       <created>1665142847458</created>
@@ -153,7 +156,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1665659882106</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="10/13">
+      <created>1666349645062</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1666349645062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

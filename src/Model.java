@@ -1,9 +1,7 @@
 import java.io.File;
 import java.util.Scanner;
 
-// The Model performs all the calculations needed
-// and that is it. It doesn't know the View
-// exists
+
 public class Model {
 
     public  static void main(String[] args) {
@@ -43,9 +41,13 @@ public class Model {
         this.message = message;
     }
 
-    public void setkey(String key) {
+    public void setKey(String key) {
         this.key = key;
     }
+    public String setcrypterad() {
+        return cryptString(message, key);
+    }
+
 
 
 
