@@ -42,7 +42,7 @@ public class view {
         frame.pack();
         frame.setVisible(true);
     }
-}
+},
 
 
 

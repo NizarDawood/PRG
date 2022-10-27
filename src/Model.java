@@ -52,7 +52,7 @@ public class Model {
 
 
 }
-
+,
     // public void setcrypt{
     //                this.crypt( int message, int key ) = crypt(int message, int key)
     //    }
